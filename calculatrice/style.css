@@ -1,17 +1,108 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-  }
-  
-  h2 {
-    margin-bottom: 30px;
-  }
-  
-  .table-bordered {
-    background-color: rgb(201, 35, 35);
-  }
-  
-  input[type="number"] {
-    text-align: right;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  margin: 0;
+  padding: 30px;
+}
+
+.image-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #343a40; /* Darker text */
+}
+
+.table-bordered {
+  background-color: #ffffff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Clip corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.table1 th,
+.table1 td {
+  padding: 12px; /* More padding for table cells */
+  text-align: center; /* Centered text */
+}
+
+.text-center {
+  color: #000000; /* Bootstrap danger color */
+  font-family: 'Noto Kufi Arabic'; /* Set Noto Kufi Arabic as the font */
+ font-weight: 600;
+  font-size: 40px;
+ background-blend-mode: color-burn;
+  padding-bottom: 10px;
+}
+
+.table1 {
+  color: #000000; /* Dark gray text */
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0059ff; /* Bootstrap primary color */
+  color: white;
+  font-size: 16px; /* Adjust font size */
+  padding: 10px 20px; /* Adjust top/bottom and left/right padding */
+  width: 100%; /* Full width */
+  margin: 10px 0; /* Margin for spacing */
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn-success {
+  background-color: #28c435cb; /* Bootstrap success color */
+  border:none; /* No border */
+  padding: 12px 24px; /* Adjust padding */
+  font-size: 20px; /* Larger font size */
+  border-radius: 20px; /* More rounded corners */
+  box-shadow: 0 10px 10px rgba(255, 0, 0, 0.2); /* Shadow for depth */
+  transition: background-color 0.3s, transform 0.2s;/* Smooth transition */
+}
+
+.btn-success:hover {
+  background-color: #0084ff; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+input[type="number"],
+input[type="text"] {
+  text-align: right;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside input */
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  border-color: #007bff; /* Bootstrap primary color */
+  outline: none; /* Remove default outline */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.container {
+  max-width: 600px; /* Optional: Limit the container width */
+  margin: auto;
+  padding: 30px; /* Increased padding for spacing */
+  background-color: #ffffff; /* White background */
+  border-radius: 12px; /* Slightly larger radius for a softer look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+}
